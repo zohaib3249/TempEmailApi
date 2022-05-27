@@ -64,7 +64,7 @@ def delete_mail(session,cookies,email):
 	r=session.get(delete_url,headers=header,cookies=cookies)
 	print(r,r.text)
 
-em="rwetwesdfsddffft"
+em="demoemail"
 email,session,cookies,flag=create_email(em)
 res=verify_email_isCreated(em,session,cookies)
 
